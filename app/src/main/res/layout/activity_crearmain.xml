@@ -1,0 +1,92 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Crearmain">
+
+
+
+    <LinearLayout
+        android:id="@+id/linearLayout"
+        android:layout_width="271dp"
+        android:layout_height="201dp"
+        android:layout_marginStart="69dp"
+        android:layout_marginEnd="69dp"
+        android:layout_marginBottom="135dp"
+        android:orientation="vertical"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/imageView">
+
+        <EditText
+            android:id="@+id/addnombre"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:ems="10"
+            android:fontFamily="sans-serif-black"
+            android:hint="Nombre:"
+            android:inputType="textPersonName"
+            android:textColor="#000000"
+            android:textColorHighlight="#000000"
+            android:textColorHint="#B51F1F"
+            android:textSize="20sp" />
+
+        <EditText
+            android:id="@+id/addedad"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:ems="10"
+            android:fontFamily="sans-serif-black"
+            android:hint="Edad:"
+            android:inputType="textPersonName"
+            android:textColor="#000000"
+            android:textColorHighlight="#000000"
+            android:textColorHint="#B51F1F"
+            android:textSize="20sp" />
+
+        <EditText
+            android:id="@+id/addcolor"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:ems="10"
+            android:fontFamily="sans-serif-black"
+            android:hint="Color:"
+            android:inputType="textPersonName"
+            android:textColor="#000000"
+            android:textColorHighlight="#000000"
+            android:textColorHint="#B51F1F"
+            android:textSize="20sp" />
+
+        <Button
+            android:id="@+id/btn_Resgistrar"
+            android:layout_width="match_parent"
+            android:layout_height="54dp"
+            android:layout_marginBottom="92dp"
+            android:backgroundTint="#000000"
+            android:fontFamily="sans-serif-black"
+            android:onClick="Agregar"
+            android:text="Registrar Mascota"
+            android:textColor="#B51F1F" />
+    </LinearLayout>
+
+
+
+    <TextView
+        android:id="@+id/textView2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="60dp"
+        android:layout_marginBottom="157dp"
+        android:fontFamily="sans-serif-black"
+        android:text="Batu Mascoteria"
+        android:textColor="#5A4213"
+        android:textSize="34sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>
